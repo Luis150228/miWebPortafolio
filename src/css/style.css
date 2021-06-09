@@ -148,3 +148,8 @@ section {
 	transform: translateY(100%);
 	display: inline-block;
 }
+
+img {
+	width: 150px;
+	height: auto;
+}
