@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Yellowtail', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Mukta Vaani', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Satisfy', cursive;
+*/
+main {
+	font-family: 'Baloo Bhai 2', cursive;
+}
+
+header {
+	box-shadow: 0px 3px 10px rgba(17, 86, 146, 0.8);
+	/* box-shadow: 0px 3px 10px rgba(237, 241, 4, 0.8); */
+	position: sticky;
+	top: 0px;
+	background: #115692;
+}
+
+.home {
+	min-height: 100vh;
+	background: url('./assets/img/background/Fondo_fher_004.jpg');
+	background-size: cover;
+	padding: 0rem 5rem;
+}
+
+nav {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	min-height: 10vh;
+	margin: auto;
+	width: 90%;
+}
+
+nav h1,
+nav ul {
+	font-size: 1.5rem;
+	flex: 1;
+}
+
+nav a {
+	color: #edf104;
+	text-decoration: none;
+}
+
+.nav-links {
+	display: flex;
+	list-style: none;
+}
+
+.nav-links li {
+	padding-left: 10rem;
+	font-size: 1.1rem;
+}
+
+#logo {
+	font-family: 'Yellowtail', cursive;
+	font-weight: lighter;
+	font-size: 1.2rem;
+}
+
+section {
+	min-height: 100vh;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+}
+
+p {
+	justify-content: left;
+	align-items: left;
+	display: flex;
+}
+.about {
+	background: linear-gradient(to right top, #f46b45, #eea849);
+}
+.tecnologias {
+	background: linear-gradient(to right top, #f4ae45, #f5c680);
+}
+.trabajos {
+	background: linear-gradient(to right top, #e3f445, #bdcc39);
+}
+.contacto {
+	background: linear-gradient(to right top, #4bf445, #2c8d28);
+}
+
+.marcador {
+	position: absolute;
+	z-index: -2;
+	background: linear-gradient(to right top, #edf104, #ffae00);
+	transform: scale(2);
+	height: 0.1px;
+	transition: all 0.6s;
+}
+
+.big-text {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -30%);
+	font-size: 5rem;
+	font-family: 'Baloo Bhai 2', cursive;
+	color: #115692;
+}
+
+.intro {
+	background: #115692;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider {
+	background: #edf104;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transform: translateY(100%);
+}
+
+.intro-text {
+	color: #edf104;
+	font-family: 'Baloo Bhai 2', Verdana;
+	font-size: 2.2rem;
+}
+
+.hide {
+	background: #115692;
+	overflow: hidden;
+}
+
+.hide span {
+	transform: translateY(100%);
+	display: inline-block;
+}
