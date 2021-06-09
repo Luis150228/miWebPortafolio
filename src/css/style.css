@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Dancing+Script:wght@400;500;600;700&family=Lobster&family=Mukta+Vaani:wght@200;400;800&family=Pacifico&family=Satisfy&family=Yellowtail&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -24,7 +26,7 @@ header {
 	background: #1d4465;
 }
 
-.home {
+.hero {
 	min-height: 100vh;
 	/* background: url('./assets/img/backgrounds/Fondo_fher_004.jpg'); */
 	background: linear-gradient(to right top, #cef104, #edf104);
