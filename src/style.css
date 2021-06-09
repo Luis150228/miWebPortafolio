@@ -67,23 +67,6 @@ nav a {
 	font-size: 1.2rem;
 }
 
-section {
-	align-items: left;
-	display: flex;
-	justify-content: left;
-	min-height: 100vh;
-}
-
-section h2 {
-	align-items: flex-start;
-	justify-content: left;
-}
-
-p {
-	justify-content: left;
-	align-items: left;
-	display: flex;
-}
 .about {
 	background: linear-gradient(to right top, #f46b45, #eea849);
 }
