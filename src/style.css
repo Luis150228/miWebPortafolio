@@ -17,16 +17,17 @@ main {
 }
 
 header {
-	box-shadow: 0px 3px 10px rgba(17, 86, 146, 0.8);
+	box-shadow: 0px 3px 10px rgba(29, 68, 101, 0.8);
 	/* box-shadow: 0px 3px 10px rgba(237, 241, 4, 0.8); */
 	position: sticky;
 	top: 0px;
-	background: #0e304d;
+	background: #1d4465;
 }
 
 .home {
 	min-height: 100vh;
-	background: url('./assets/img/backgrounds/Fondo_fher_004.jpg');
+	/* background: url('./assets/img/backgrounds/Fondo_fher_004.jpg'); */
+	background: linear-gradient(to right top, #cef104, #edf104);
 	background-size: cover;
 	padding: 0rem 5rem;
 }
@@ -47,8 +48,9 @@ nav ul {
 }
 
 nav a {
-	color: #edf104;
+	color: #cdf104;
 	text-decoration: none;
+	font-family: 'Baloo Bhai 2', cursive;
 }
 
 .nav-links {
@@ -96,11 +98,11 @@ nav a {
 	transform: translate(-50%, -30%);
 	font-size: 5rem;
 	font-family: 'Baloo Bhai 2', cursive;
-	color: #0e304d;
+	color: #1d4465;
 }
 
 .intro {
-	background: #0e304d;
+	background: #1d4465;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -128,7 +130,7 @@ nav a {
 }
 
 .hide {
-	background: #0e304d;
+	background: #1d4465;
 	overflow: hidden;
 }
 
